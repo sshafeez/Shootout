@@ -1,0 +1,67 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "shootout",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "rules",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SheildIntent",
+                    "slots": [],
+                    "samples": [
+                        "shield",
+                        "wall",
+                        "hide",
+                        "guard",
+                        "protect",
+                        "sheild",
+                        "block"
+                    ]
+                },
+                {
+                    "name": "ReloadIntent",
+                    "slots": [],
+                    "samples": [
+                        "ammo",
+                        "get Bullet",
+                        "Load",
+                        "Reload"
+                    ]
+                },
+                {
+                    "name": "ShootIntent",
+                    "slots": [],
+                    "samples": [
+                        "kill",
+                        "gun",
+                        "blast",
+                        "fire",
+                        "shoot"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

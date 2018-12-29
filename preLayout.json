@@ -1,0 +1,57 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.0.0"
+        }
+    ],
+    "resources": [],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "items": [
+                    {
+                        "type": "Image",
+                        "source": "http://pixelartmaker.com/art/c8993de5547121b.png",
+                        "scale": "best-fill",
+                        "position": "absolute",
+                        "width": "100vw",
+                        "height": "100vh"
+                    },
+                    {
+                        "type": "AlexaHeader",
+                        "headerTitle": "Ammo: 0 "
+                    },
+                    {
+                        "type": "Container",
+                        "direction": "row",
+                        "paddingLeft": "5vw",
+                        "paddingRight": "5vw",
+                        "paddingBottom": "5vh",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "height": "100vh",
+                                "width": "120vw",
+                                "source": "https://i.ibb.co/Z1qZnKW/reload.png",
+                                "scale": "none",
+                                "align": "center"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
